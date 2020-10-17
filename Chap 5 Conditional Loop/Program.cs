@@ -41,10 +41,11 @@ namespace chap5Conditional_statement
             else
             {
                 Console.WriteLine(firstnum + " " + secondnum);
-            }
+            }*/
+
 
             //part 2: show sign of 3 product without calculating it
-            int thirdnum = int.Parse(Console.ReadLine());
+            /*int thirdnum = int.Parse(Console.ReadLine());
 
             if ((firstnum < 0 && secondnum < 0) || (firstnum < 0 && thirdnum < 0) || (secondnum < 0 && thirdnum < 0))
             {
@@ -65,11 +66,11 @@ namespace chap5Conditional_statement
             else
             {
                 Console.WriteLine("+");
-            }
+            }*/
 
             // part 3: bigger value of integer nested loop
            
-            if (firstnum > secondnum)
+            /*if (firstnum > secondnum)
             {
                 if (firstnum > thirdnum)
                 {
@@ -90,12 +91,12 @@ namespace chap5Conditional_statement
                 if (thirdnum > secondnum)
                 {
                     Console.WriteLine(thirdnum);
-                }
-                else
-                    Console.WriteLine("wtf");
+                }                
             }
             else
-                Console.WriteLine("hmm"); */
+                Console.WriteLine("Equal"); */
+
+
             //part 4: descending order 
             /*
             Console.WriteLine("Enter any 3 number: ");
