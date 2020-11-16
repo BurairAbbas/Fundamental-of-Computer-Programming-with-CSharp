@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Chap20OOP.AnimalEx">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAEAAAAQAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnimalEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chap20OOP.DogEx">
+    <Position X="1.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnimalP6\DogEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chap20OOP.CatEx">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnimalP6\CatEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chap20OOP.FrogEx">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnimalP6\FrogEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chap20OOP.KittenEx">
+    <Position X="10.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnimalP6\KittenEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chap20OOP.TomcatEx">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnimalP6\TomcatEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Chap20OOP.Human">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAg=</HashCode>
+      <FileName>Human.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chap20OOP.P2Student">
+    <Position X="1.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAACAAAAAgAA=</HashCode>
+      <FileName>P2Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chap20OOP.P2Worker">
+    <Position X="3.75" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAQAAAEAAAAAAAAAAAACAAAAAgAAAAAAgA=</HashCode>
+      <FileName>P2Worker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
