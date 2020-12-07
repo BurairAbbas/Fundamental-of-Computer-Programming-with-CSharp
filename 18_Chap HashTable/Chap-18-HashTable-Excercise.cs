@@ -629,19 +629,19 @@ namespace Chap18HashTableExcercise
         public void DoubleValueMethod()
         {
             DoubleValueDict<string, string> dict = new DoubleValueDict<string, string>();
-            dict.Add("University", "Burair", "Asad", "Uziar");
-            dict.Add("School", "Sohaib", "Shahzil", "Hamza");
-            dict.Add("Eureka", "Ahsan", "Usman", "Taha");
-            dict.Add("Coaching", "Saad", "Mudasir", "Anas");
-            dict.Add("Other Loyal", "Dilawar", "Hammad", "Ahsan");
-            dict.Add("Good Friend", "Lodi", "Waqas", "Munawar");
-            dict.Add("Burair", "");
-            dict.Add("Dilawar", "");
+            dict.Add("University", "John", "Asad", "Uran");
+            dict.Add("School", "Ron", "Harry", "Hamza");
+            dict.Add("Eureka", "Ahsan", "Panlo", "Harai");
+            dict.Add("Coaching", "Dale", "Carnegie", "Anas");
+            dict.Add("Other Loyal", "Wick", "Joker", "Loki");
+            dict.Add("Good Friend", "Eckhart", "Dale", "Rebert");
+            dict.Add("John", "");
+            dict.Add("Noah", "");
             dict.Add("as", "");
 
             dict.Remove("Other Loyal");
             List<string> frined = dict["University"];
-            dict.Add("University", "Taha", "Asad", "Raahim");
+            dict.Add("University", "Jasan", "Rhonda", "Wayne");
 
             foreach (var listItem in dict)
             {
@@ -664,13 +664,13 @@ namespace Chap18HashTableExcercise
         public void DoubleKeyDictMethod()
         {
             DoubleKeyDictionary<int, int, string> matrixName = new DoubleKeyDictionary<int, int, string>();
-            matrixName[1, 1] = "Burair";
-            matrixName[1, 2] = "Shahzil";
-            matrixName[2, 1] = "Sohaib";
-            matrixName[1, 3] = "Lodi";
-            matrixName[4, 1] = "Asad";
-            matrixName[3, 1] = "Hamza";
-            matrixName[1, 3] = "Abbas";
+            matrixName[1, 1] = "John";
+            matrixName[1, 2] = "Harry";
+            matrixName[2, 1] = "Ron";
+            matrixName[1, 3] = "Loki";
+            matrixName[4, 1] = "Wayne";
+            matrixName[3, 1] = "Eckhart";
+            matrixName[1, 3] = "Robert";
             matrixName.Remove(3, 1);
             foreach (var item in matrixName)
             {
@@ -690,12 +690,12 @@ namespace Chap18HashTableExcercise
         public void DictHashMainMethod()
         {
             DictHashSet<string> dict = new DictHashSet<string>();
-            dict.Add("Burair");
-            dict.Add("Sohaib");
-            dict.Add("Dilawar");
-            dict.Contain("Dilawar");
-            dict.Add("Shahzil");
-            dict.Add("Hamza");
+            dict.Add("John");
+            dict.Add("Tolle");
+            dict.Add("Dale");
+            dict.Contain("Dale");
+            dict.Add("Robert");
+            dict.Add("Noah");
 
             foreach (var item in dict)
             {
@@ -703,7 +703,7 @@ namespace Chap18HashTableExcercise
             }
             Console.WriteLine(dict.Count);
 
-            Console.WriteLine("Is Dilawar Removed ? " + (dict.Remove("Dilawar") ? "Yes!" : "No"));
+            Console.WriteLine("Is Dale Removed ? " + (dict.Remove("Dale") ? "Yes!" : "No"));
             foreach (var item in dict)
             {
                 Console.Write(item.Value + " ");
@@ -711,8 +711,8 @@ namespace Chap18HashTableExcercise
             Console.WriteLine(dict.Count);
 
             DictHashSet<string> dict2 = new DictHashSet<string>();
-            dict2.Add("Hamza");
-            dict2.Add("Kashan");
+            dict2.Add("Harry");
+            dict2.Add("Karish");
             dict2.Add("Ali");
             dict2.Add("Shahzil");
 
