@@ -1,5 +1,4 @@
-# Fundamental-of-Computer-Programming-with-CSharp-Nokav
-## By Svetlin Nakov & Co.
+# Fundamental-of-Computer-Programming-with-CSharp-Nokav  By Svetlin Nakov & Co.
 
 I really want to appreciate this masterpiece.
 
